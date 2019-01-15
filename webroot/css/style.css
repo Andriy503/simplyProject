@@ -1,0 +1,133 @@
+.title {
+    color: #7a3434;
+    font-size: 40px;
+}
+
+.admin_panel {
+	position: absolute;
+	margin-left: 80%;
+	font-size: 20px;
+	color: #ff8300;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.admin_panel:hover {
+	cursor: pointer;
+	color: red;
+	text-decoration: underline;
+}
+
+.admin_panel {
+	color: #46abea;
+}
+
+.logo_user {
+	position: absolute;
+	width: 30px;
+	margin-top: 7px;
+	margin-left: -6%;
+}
+
+.email_user {
+	font-size: 12px;
+}
+
+.nav {
+	height: 20px;
+}
+
+.nav > li > a {
+	font-size: 15px;
+}
+
+.welcome {
+	color: #a04646;
+}
+
+.auth > li > a:hover {
+	cursor: pointer;
+}
+
+#form_sign_in {
+	position: absolute;
+	height: auto;
+	width: 200px;
+	background-color: white;
+	margin-left: -100px;
+	opacity: 0.7;
+	border: 1px solid #b2b2b2;
+}
+
+.input_form {
+	margin-left: 25px;
+}
+
+.input_form_up {
+	margin-left: 25px;
+}
+
+.label_form{
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+.sign_in {
+	float: right;
+	margin: 10px;
+}
+
+.sign_in:hover {
+	background-color: #bfbdbd;
+	border: 1px solid black;
+	color: white;
+}
+
+.data_of_user {
+	cursor: pointer;
+}
+
+.mini_block_user {
+	position: absolute;
+	left: 78px;
+	height: auto;
+	width: 120px;
+	background-color: white;
+	opacity: 0.7;
+	border: 1px solid #b2b2b2;
+}
+
+.menu_user {
+	list-style-type: none;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: -20px;
+}
+
+.item_profile:hover {
+	cursor: pointer;
+	text-decoration-line: underline;
+}
+
+.active {
+	color: black !important;
+	box-shadow: 0px -50px 50px -50px #c0ea4b inset;
+}
+
+#form_sign_up {
+	position: absolute;
+	height: auto;
+	width: 200px;
+	background-color: white;
+	margin-left: -100px;
+	opacity: 0.9;
+	border: 1px solid #b2b2b2;
+}
+
+#form_sign_up > input {
+	margin-left: 25px;
+}
+
+._hidden {
+	visibility: hidden;
+}
